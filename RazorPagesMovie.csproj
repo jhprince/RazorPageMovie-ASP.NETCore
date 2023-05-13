@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>44b55ff6-a078-45fe-badf-db7c81508168</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\NewFolder\**" />
+    <Content Remove="Models\NewFolder\**" />
+    <EmbeddedResource Remove="Models\NewFolder\**" />
+    <None Remove="Models\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\RazorPagesMovie.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\RazorPagesMovie.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net7.0\RazorPagesMovie.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net7.0\project.razor.vs.json" />
+    <Content Include="obj\Debug\net7.0\RazorPagesMovie.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\scopedcss\bundle\RazorPagesMovie.styles.css" />
+    <Content Include="obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css" />
+    <Content Include="obj\Debug\net7.0\scopedcss\projectbundle\RazorPagesMovie.bundle.scp.css" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.development.json" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.pack.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\RazorPagesMovie.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net7.0\apphost.exe" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.assets.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.dll" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.pdb" />
+    <None Include="obj\Debug\net7.0\RazorPagesMovie.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net7.0\refint\RazorPagesMovie.dll" />
+    <None Include="obj\Debug\net7.0\ref\RazorPagesMovie.dll" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.build.RazorPagesMovie.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.RazorPagesMovie.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.RazorPagesMovie.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.RazorPagesMovie.Microsoft.AspNetCore.StaticWebAssets.props" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\RazorPagesMovie.csproj.nuget.g.props" />
+    <None Include="obj\RazorPagesMovie.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
+  </ItemGroup>
+
+</Project>
